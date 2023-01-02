@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let data = 'Hello from JS';
+        console.log(data);
+    </script>
+
+    // Multiple script tags.
+    <script>
+        let data1 = 'Hello from JS';
+        console.log(data1);
+    </script>
+
+    // Accessing variable declared in another script tag.
+    <script>
+        console.log(data);
+    </script>
+    <script>
+        let object = {
+            language: 'English',
+            message: 'Hello World'
+        }
+        console.log(object);
+
+         // display properties and values in table structure.
+        console.table(object);
+    </script>
+    <script>
+        console.log('This is a message');
+        console.info('Login was successful');
+        console.warn('Password is not strong enough...');
+        console.error('An error occured.');
+        console.table(['one', 'two', 'three']);
+    </script>
+</body>
+</html>
