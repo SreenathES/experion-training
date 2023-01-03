@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" tabindex="1" name="firstName" id="target" onfocus="executeEvent(event)">
+
+    <script>
+        function executeEvent(e) {
+            console.log(e);
+        }
+    </script>
+
+    // This event is fired when an element is selected, it doesn't need to be clicked
+    // it can be done programmatically, calling .focus() or using the Tab key, for example.
+</body>
+</html>

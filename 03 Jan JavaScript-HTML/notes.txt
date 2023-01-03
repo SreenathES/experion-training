@@ -1,0 +1,10 @@
+onkeypress() - identify characters only
+onkeyup() - identify every keyboard click including enter, backspace etc.
+
+getElementsByClassName() - returns html collection
+querySelectorAll() - returns nodelist array
+
+innerText -  innerText return HTML element (entire code) as a string and display HTML element on the screen 
+innerHtml -  innerHTML property gets and sets the plain text or HTML contents in the elements.
+             innerHTML retrieves and sets the content in HTML format.
+
