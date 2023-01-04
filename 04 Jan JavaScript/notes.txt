@@ -1,0 +1,13 @@
+https://reqres.in/
+
+Asynchronous programming is a technique that enables your program to start a potentially 
+long-running task and still be able to be responsive to other events while that task runs, 
+rather than having to wait until that task has finished.
+Once that task has finished, your program is presented with the result.
+
+callback - A callback is just a function that's passed into another function, with the expectation that the callback will be called at the appropriate time.
+           callback-based code can get hard to understand when the callback itself has to call functions that accept a callback.
+promise - A promise is an object returned by an asynchronous function, which represents the current state of the operation. At the time the promise is returned to the caller,
+          the operation often isn't finished, but the promise object provides methods to handle the eventual success or failure of the operation.
+          promises are generally one time process.
+async-await
