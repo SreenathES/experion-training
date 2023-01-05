@@ -10,16 +10,15 @@ const formData = {
     // isInvalid: function(){
     //     return (this.email.errors.length > 0 || this.password.errors.length > 0);
     // },
-    clean: function(){
+    clean: function () {
         this.email.errors = [];
         this.password.errors = [];
     }
 };
 
-function handleSubmit(e){
+function handleSubmit(e) {
     e.preventDefault();
-    
-    // Validating email.
+
     validate();
 
 }
@@ -45,7 +44,7 @@ function displayErrors() {
 function validate() {
 
     formData.clean();
-    console.log(formData);
+    // console.log(formData);
     if (formData.email.field.value === '') {
         formData.email.errors.push('Email is required.');
     }
@@ -66,8 +65,8 @@ function validate() {
 }
 
 // Auto validation.
-document.querySelectorAll('#login input').forEach(element=>{
-    element.addEventListener('keyup', ()=>{
+document.querySelectorAll('#login input').forEach(element => {
+    element.addEventListener('keyup', () => {
         validate();
     });
 });
